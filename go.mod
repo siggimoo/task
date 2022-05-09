@@ -1,4 +1,4 @@
-module github.com/go-task/task/v3
+module github.com/siggimoo/task/v3
 
 require (
 	github.com/fatih/color v1.13.0

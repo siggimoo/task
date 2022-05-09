@@ -6,9 +6,9 @@ import (
 
 	"github.com/joho/godotenv"
 
-	"github.com/go-task/task/v3/internal/compiler"
-	"github.com/go-task/task/v3/internal/templater"
-	"github.com/go-task/task/v3/taskfile"
+	"github.com/siggimoo/task/v3/internal/compiler"
+	"github.com/siggimoo/task/v3/internal/templater"
+	"github.com/siggimoo/task/v3/taskfile"
 )
 
 func Dotenv(c compiler.Compiler, tf *taskfile.Taskfile, dir string) (*taskfile.Vars, error) {

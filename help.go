@@ -9,8 +9,8 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/go-task/task/v3/internal/logger"
-	"github.com/go-task/task/v3/taskfile"
+	"github.com/siggimoo/task/v3/internal/logger"
+	"github.com/siggimoo/task/v3/taskfile"
 )
 
 // ListTasksWithDesc reports tasks that have a description spec.
